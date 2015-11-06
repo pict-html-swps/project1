@@ -1,0 +1,407 @@
+@media (min-width: 768px)
+{
+	body
+	{
+		background-color: white;
+		font-family: 'Shadows Into Light', cursive;
+		margin: 0px;
+	}
+
+	header
+	{
+		background-color: green;
+		float right;
+	}
+
+	header img
+	{
+		width: 100px;
+		margin: 10px;
+		float right;
+	}
+
+	nav
+	{
+		background-color: grey;
+		font-weight: bold;
+		width: 100%;
+		padding: 10px;
+		float: left;
+	}
+
+	nav a
+	{
+		color: black;
+		padding: 30px;
+		text-decoration: none;
+	}
+
+	section
+	{
+		width: 50%;
+		background-color: orange;
+		float: right;
+	}
+	section.Banner
+	{
+		width: 100%;
+		font-weight: bold;
+		float: left;
+		background-color: none;
+	}
+section.Banner img
+{
+	width: 110%;
+margin: -20px;
+float right;
+}
+	section.menuPoLewej
+	{
+		width: 48.5%;
+		margin: 0px;
+		font-weight: bold;
+		float: left;
+		background-color: lightgrey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoLewej img
+{
+	width: 200px;
+	margin: 0px;
+	float right;
+	
+}
+	section.menuPoPrawej
+	{
+		width: 48.5%;
+		margin: 0px;
+		font-weight: bold;
+		float: right;
+		background-color: grey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoPrawej img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoLewej2
+	{
+		width: 48.5%;
+		margin: 0px;
+		font-weight: bold;
+		float: left;
+		background-color: grey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoLewej2 img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoPrawej2
+	{
+		width: 48.5%;
+		margin: 0px;
+		font-weight: bold;
+		float: right;
+		background-color: lightgrey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoPrawej2 img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	aside
+	{
+		padding: 20px;
+	}
+
+	footer
+	{
+		float: left;
+		width: 100%;
+		margin: 10px;
+		padding: 10px;
+		clear: both;
+		background-color: grey;
+
+	}
+}
+@media (max-width: 768px)
+{
+	body
+	{
+		background-color: white;
+		font-family: 'Shadows Into Light', cursive;
+		margin: 0px;
+	}
+
+	
+
+	
+
+	nav
+	{
+		background-color: grey;
+		font-weight: bold;
+		width: 100%;
+		padding: 10px;
+		float: left;
+	}
+
+	nav a
+	{
+		color: black;
+		padding: 30px;
+		text-decoration: none;
+	}
+
+	section
+	{
+		width: 50%;
+		background-color: orange;
+		float: right;
+	}
+	section.Banner
+	{
+		width: 100%;
+		font-weight: bold;
+		float: left;
+		background-color: none;
+	}
+section.Banner img
+{
+	width: 110%;
+margin: -20px;
+float right;
+}
+	section.menuPoLewej
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: left;
+		background-color: lightgrey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+		}
+section.menuPoLewej img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoPrawej
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: right;
+		background-color: grey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoPrawej img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoLewej2
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: left;
+		background-color: lightgrey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoLewej2 img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoPrawej2
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: right;
+		background-color: grey;
+		background-image:url(img.jpg);
+		background-size:cover;
+		background-position: center bottom;
+	}
+section.menuPoPrawej2 img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	aside
+	{
+		padding: 20px;
+	}
+
+	footer
+	{
+		float: left;
+		width: 100%;
+		margin: 10px;
+		padding: 10px;
+		clear: both;
+		background-color: lightgrey;
+
+	}
+}
+
+
+@media (max-width: 640px)
+{
+	body
+	{
+		background-color: white;
+		font-family: 'Shadows Into Light', cursive;
+		margin: 0px;
+	}
+
+	header
+	{
+		background-color: green;
+		float right;
+	}
+
+	header img
+	{
+		width: 100px;
+		margin: 10px;
+		float right;
+	}
+
+	nav
+	{
+		background-color: grey;
+		font-weight: bold;
+		width: 100%;
+		padding: 10px;
+		float: left;
+	}
+
+	nav a
+	{
+		color: black;
+		padding: 5px;
+		display: block;
+		text-decoration: none;
+	}
+
+	section
+	{
+		width: 50%;
+		background-color: orange;
+		float: right;
+	}
+	section.Banner
+	{
+		width: 100%;
+		font-weight: bold;
+		float: left;
+		background-color: none;
+	}
+section.Banner img
+{
+	width: 110%;
+margin: -20px;
+float right;
+}
+	section.menuPoLewej
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: left;
+		background-color: lightgrey;
+	}
+section.menuPoLewej img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoPrawej
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: right;
+		background-color: grey;
+	}
+section.menuPoPrawej img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoLewej2
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: left;
+		background-color: lightgrey;
+	}
+section.menuPoLewej2 img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	section.menuPoPrawej2
+	{
+		width: 100%;
+		margin: 0px;
+		font-weight: bold;
+		float: right;
+		background-color: grey;
+	}
+section.menuPoPrawej2 img
+{
+	width: 200px;
+margin: 0px;
+float right;
+}
+	aside
+	{
+		padding: 20px;
+	}
+
+	footer
+	{
+		float: left;
+		width: 100%;
+		margin: 10px;
+		padding: 10px;
+		clear: both;
+		background-color: lightgrey;
+
+	}
+}
+
