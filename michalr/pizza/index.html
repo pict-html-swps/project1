@@ -14,8 +14,8 @@
 	function init() {
 	        var compass = document.getElementById('compass');
 	        if(window.DeviceOrientationEvent) {
- 
 	          window.addEventListener('deviceorientation', function(event) {
+				  console.log(event);
 	                var alpha;
 	                //Check for iOS property
 	                if(event.webkitCompassHeading) {
