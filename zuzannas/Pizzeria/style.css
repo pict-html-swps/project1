@@ -1,0 +1,32 @@
+body{
+	font-family: 'Roboto';
+}
+
+h2{
+	margin-left: 30px;
+}
+
+.lista {
+	float:left;
+	clear:both;
+	background-color: #748BA7;
+	width: 80%;
+	padding: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top:20px;
+}
+
+.logo {
+	float:left;
+	width:40%;
+}
+
+.desc{
+	float:left;
+	width:60%;
+}
+
+.tel {
+	width: 10%;
+}
