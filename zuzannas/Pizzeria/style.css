@@ -10,7 +10,7 @@ h2{
 	float:left;
 	clear:both;
 	background-color: #748BA7;
-	width: 80%;
+	width: 90%;
 	padding: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -19,12 +19,13 @@ h2{
 
 .logo {
 	float:left;
-	width:40%;
+	width:35%;
+	padding-right:15%;
 }
 
 .desc{
 	float:left;
-	width:60%;
+	width:50%;
 }
 
 .tel {
