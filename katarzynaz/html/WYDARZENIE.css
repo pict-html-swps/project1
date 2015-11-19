@@ -1,0 +1,68 @@
+body{
+	background-color:#FFE4E1;
+	margin: 0%;
+}
+
+
+
+header{
+	background-color: LightPink;
+}
+h1{
+  margin-left: 400px;
+}
+
+
+header img{
+	width: 385px;
+	padding: 0px; float: left;
+}
+
+
+
+nav{
+	background-color: PaleVioletRed;
+	padding: 40px;
+}
+
+
+
+nav a{
+	color: LightPink;
+	padding: 20PX;
+}
+
+
+
+
+section{
+	width: 60%;
+	float: left;
+}
+
+
+
+section.menuPoPrawej{
+	width: 18%;
+	float: left;
+	background-color: #DB7093;}
+
+
+
+aside{
+	padding: 200%;
+  display: inline;
+}
+
+aside img{
+  height: 30%;
+  float: left;
+}
+
+
+
+footer{
+	padding: 9%;
+	clear: both;
+	background-color: PaleVioletRed;
+}

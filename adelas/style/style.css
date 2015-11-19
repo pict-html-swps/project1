@@ -1,0 +1,59 @@
+body{
+	background-color: #E0EBFF;
+	margin: 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header{
+	background-color: #E0EBFF;
+}
+
+header img{
+	width: 100px;
+	margin: 10px;
+}
+
+nav{
+	background-color: #476BB2;
+	padding: 30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+nav a{
+	color: #E0EBFF;
+	padding: 30px;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+section{
+	width: 74%;
+	float: right;
+	background-color: #476BB2;
+	text-align: justify;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border-style: solid;
+    border-color: #94B8FF #141F33 ;
+}
+
+section.menuPoPrawej{
+	width: 25%;
+	float: left;
+	background-color: #293D66;
+	text-align: justify;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border-style: double;
+    border-color:#141F33 #94B8FF;
+}
+
+aside{
+	padding: 20px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: #476BB2;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

@@ -1,0 +1,73 @@
+body{
+	background-color: #ADD8E6;
+	margin: 5%;
+}
+
+body h1{
+	font-family:helvetica;
+	color:#00FF00;
+	font-size: 400%;
+}
+
+body p{
+	font-family:arial;
+	font-size: 150%;
+}
+
+header{
+	background-color: #800000;
+	padding: 5%;
+}
+
+header img{
+	width: 15%;
+	margin: 15%;
+}
+
+nav{
+	background-color: #151B8D;
+	padding: 1%;
+}
+
+nav a{
+	color: #737CA1;
+	padding: 2%;
+	font-family:Impact;
+	text-decoration: none;
+}
+
+section{
+	width: 90%;
+	float: right;
+	font-family: Courier;
+}
+
+section p{
+	padding: 2%;
+	font-family: Lucida;
+	color: #00000;
+}
+
+section.menuPoPrawej{
+	width: 10%;
+	float: left;
+	background-color: #368BC1;
+}
+
+section.menuPoPrawej p{
+	color: #50EBEC;
+	font-family: Times;
+	font-size: 75%;
+}
+
+aside{
+	padding: 50px;
+}
+
+footer{
+	padding: 1%;
+	clear: both;
+	background-color: gray;
+	text-align: right;
+	font-size:50%;
+}

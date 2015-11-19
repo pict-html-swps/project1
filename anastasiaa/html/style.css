@@ -1,0 +1,64 @@
+body{
+	background-color: white;
+	margin: 0px;
+}
+
+header{
+	background-color: white;
+}
+
+header img{
+	width: 20%;
+	margin: 0px;
+}
+
+nav{
+	background-color: gray;
+	padding: 20px;
+
+}
+
+nav a{
+	color: white;
+	padding: 50px;
+	text-decoration: none;
+font-size:20px;
+       
+}
+
+section{
+	width: 70%;
+	float: left;
+	font-size:18px;
+}
+
+section aside{
+	float:left;
+	clear:left;
+	display:block;
+}
+
+.img1{
+width:400px;
+}
+
+.img2{
+width:200px;
+}
+
+section.menuPoPrawej{
+	width: 30%;
+	float: right;
+	background-color: #ccc;
+}
+
+
+aside{
+	padding: 20px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: gray;
+}

@@ -1,0 +1,74 @@
+body{
+	background-color: gray;
+	margin: 0px;
+}
+
+header{
+	background-color: blue;
+}
+
+header img{
+	width: 100px;
+	margin: 10px;
+}
+
+nav{
+	background-color: white;
+	padding: 10px;
+}
+
+nav a{
+	color: black;
+	padding: 30px;
+	text-decoration: none;
+}
+
+section{
+	
+	width: 60%;
+	float: right;
+	background-color: silver;
+	
+}
+
+h1 {
+
+color: white;
+	font: family: Arial Black;
+	font-weight: bold;
+
+}
+
+h2 {
+color: white;
+	font: family: Arial Black;
+	font-weight: bold;
+}
+
+
+p { color: white;
+	font: family: Arial Black;
+	font-weight: bold;
+	}
+
+selector {
+
+color: blue;
+}
+
+section.menuPoPrawej{
+
+width: 70%;
+	float: left;
+	
+}
+
+aside{
+	padding: 20px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: black;
+}

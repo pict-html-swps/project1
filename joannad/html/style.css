@@ -1,0 +1,57 @@
+body{
+	background-color:#F5F5F5;
+	margin: 0px;
+}
+
+
+
+header{
+	background-color: white;margin: 19px;
+}
+
+
+
+header img{
+	width:98%;
+height: 90%;
+	
+}
+
+
+
+nav{
+	background-color: white;
+	padding: 40px;
+}
+
+
+
+nav a{
+	color: white;
+	padding: 95px;
+	text-decoration: line-through;
+}
+
+
+
+
+section{
+	width: 70%;
+	float: left;
+}
+
+
+
+
+
+aside{
+	padding: 100px;
+}
+
+
+
+footer{
+	padding: 9px;
+	clear: both;
+	background-color: white;
+}

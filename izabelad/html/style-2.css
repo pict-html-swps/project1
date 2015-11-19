@@ -1,0 +1,54 @@
+body{
+	background-color: #B0C4DE;
+	margin: 0px;
+}
+
+
+header{
+	background-color: #DCDCDC;
+}
+
+
+header img{
+	width: 400px;
+	margin: 0px;
+}
+
+
+nav{
+	background-color: #F0F8FF;
+	padding: 10px;
+}
+
+
+nav a{
+	color: #483D8B;
+	padding: 30px;
+	text-decoration: none;
+}
+
+
+section{
+	width: 100%;
+	float: right;
+}
+
+
+section.menuPoPrawej{
+	width: 100%;
+	float: left;
+	background-color: #B0C4DE;
+}
+
+
+aside{
+	padding: 0px;
+}
+
+
+footer{
+	padding: 25px;}
+	
+clear: both;
+	background-color: gray;
+}

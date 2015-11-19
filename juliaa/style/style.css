@@ -1,0 +1,69 @@
+body{
+	background-color: #C0D9D9;
+	margin: 50px;
+	p {
+	    font-family: "Tahoma", Tahoma, sans-serif;
+	}
+
+
+}
+
+
+
+header{
+	background-color: #8F8FBD;
+	p {
+	    font-family: "Tahoma", Tahoma, sans-serif;
+	}
+	
+}
+
+header img{
+	width: 100px;
+	margin: 50px;
+	p {
+	    font-family: "Times New Roman", Times, serif;
+	}
+	
+}
+
+nav{
+	background-color: #C0D9D9;
+	padding: 30px;
+	p {
+	    font-family: "Times New Roman", Times, serif;
+	}
+	
+}
+
+nav a{
+	color: #8F8FBD;
+	padding: 30px;
+	text-decoration: underline;
+	p {
+	    font-family: "Times New Roman", Times, serif;
+	}
+	
+	
+}
+
+section{
+	width: 90%;
+	float: left;
+}
+
+section.menuPoPrawej{
+	width: 30%;
+	float: right;
+	background-color: #C0D9D9;
+}
+
+aside{
+	padding: 20px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: gray;
+}

@@ -1,0 +1,53 @@
+body{
+	background-color: #113CD7;
+	margin: 10px;
+}
+
+header{
+	background-color: #FF8F20;
+}
+
+header img{
+	width: 150px;
+	margin: 50px;
+}
+
+nav{
+  text-align: center;
+	background-color: black;
+	padding: 10px;
+}
+
+nav a{
+	color: white;
+	padding: 10px;
+	text-decoration: underline;
+  font-family: Verdana;
+}
+
+section{
+  text-align: left;
+	width: 80%;
+	float: right;
+  font-family: Verdana;
+}
+
+section.menuPoPrawej{
+  text-align: center;
+	width: 20%;
+	float: right;
+	background-color: #FFDA00;
+
+  
+}
+
+aside{
+	padding: 20px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: white;
+  text-align: center;
+}

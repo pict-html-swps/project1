@@ -1,0 +1,62 @@
+body{
+	background-color: #c7c7c7;
+	margin: 0px;
+}
+
+header{
+	background-color: #c7c7c7;
+}
+
+header img{
+	width: 100px;
+	margin: 10px;
+}
+
+nav{
+	background-color: #6399d4;
+	padding: 10px;
+}
+
+nav a{
+	color: white;
+	padding: 30px;
+	text-decoration: none;
+}
+
+section{
+	width: 40%;
+	float: left;
+}
+
+section.menuPoPrawej{
+	width: 30%;
+	float: right;
+	background-color: #e3e3e3;
+}
+
+aside{
+	padding: 30px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: #6399d4;
+}
+/* nieodwiedzony link */
+a:link
+{
+color: white
+}
+
+/* odwiedzony link */
+a:visited
+{
+ color: white
+}
+
+/* hover link */
+a:hover
+{
+color: yellow
+}

@@ -1,0 +1,45 @@
+body{
+	background-color: #FFCC99;
+	margin: 100px;
+}
+
+header{
+	background-color: #FFFF99;
+}
+
+header img{
+	width: 100px;
+	margin: 10px;
+}
+
+nav{
+	background-color: #999999;
+	padding: 10px;
+}
+
+nav a{
+	color: #CCCCCC;
+	padding: 30px;
+	text-decoration: blink;
+}
+
+section{
+	width: 70%;
+	float: right;
+}
+
+section.menuPoPrawej{
+	width: 30%;
+	float: left;
+	background-color: #ccc;
+}
+
+aside{
+	padding: 20px;
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+	background-color: gray;
+}

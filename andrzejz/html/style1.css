@@ -1,0 +1,193 @@
+@media (min-width: 768px)
+{
+	body
+	{
+		background-color: lightblue;
+		font-family: 'Shadows Into Light', cursive;
+		margin: 0px;
+	}
+
+	header
+	{
+		background-color: green;
+		float right;
+	}
+
+	header img
+	{
+		width: 100px;
+		margin: 10px;
+		float right;
+	}
+
+	nav
+	{
+		background-color: yellow;
+		font-weight: bold;
+		padding: 10px;
+		float: right;
+	}
+
+	nav a
+	{
+		color: black;
+		padding: 30px;
+		text-decoration: none;
+	}
+
+	section
+	{
+		width: 75%;
+		background-color: orange;
+		float: right;
+	}
+
+	section.menuPoPrawej
+	{
+		width: 25%;
+		font-weight: bold;
+		float: right;
+		background-color: red;
+	}
+
+	aside
+	{
+		padding: 20px;
+	}
+
+	footer
+	{
+		float: right;
+		padding: 10px;
+		clear: both;
+		background-color: purple;
+
+	}
+}
+
+@media (max-width: 768px)
+{
+
+	body
+	{
+		background-color: #E0EBFF;
+		margin: 0px;
+		font-family: 'Bangers', cursive;
+	}
+
+	header
+	{
+		background-color: #E0EBFF;
+	}
+
+	header img
+	{
+		width: 100px;
+		margin: 10px;
+	}
+
+	nav{
+		background-color: #476BB2;
+		padding: 30px;
+		
+	}
+
+	nav a{
+		color: #E0EBFF;
+		padding: 30px;
+		text-decoration: underline;
+		text-decoration-style: dotted;
+		
+	}
+
+	section{
+		width: 74%;
+		float: right;
+		background-color: #476BB2;
+		text-align: justify;
+		
+		border-style: solid;
+	    border-color: #94B8FF #141F33 ;
+	}
+
+	section.menuPoPrawej{
+		width: 25%;
+		float: left;
+		background-color: #293D66;
+		text-align: justify;
+		
+		border-style: double;
+	    border-color:#141F33 #94B8FF;
+	}
+
+	aside{
+		padding: 20px;
+	}
+
+	footer{
+		padding: 10px;
+		clear: both;
+		background-color: #476BB2;
+	
+	}
+}
+
+@media (max-width: 640px)
+{
+	body{
+		background-color: #FFE4B5;
+		font-family: 'Six Caps', sans-serif;
+		margin: 10px;
+	}
+
+
+	header{
+		background-color: #D2691E;
+	}
+
+
+	header img{
+		width: 200px;
+		margin: 30px;
+	}
+
+
+	nav{
+		background-color: #A0522D;
+		
+	}
+
+
+	nav a{
+		color: #F5F5DC;
+		padding: 30px;
+		text-decoration: none;
+	}
+
+
+	section{
+		width: 70%;
+		float: right;
+	}
+
+
+	section.menuPoPrawej{
+		width: 30%;
+		float: left;
+		background-color: #DEB887;
+	}
+
+
+	aside{
+		padding: 20px;
+	}
+
+
+	footer{
+		clear:both;
+		background-color:gray;
+		padding:25px;
+	}
+
+}
+
