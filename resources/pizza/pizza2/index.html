@@ -11,9 +11,11 @@
 		if( window.DeviceOrientationEvent )
 		{
 			window.addEventListener('deviceorientation', function(event) {
-				console.log(event.alpha);
+				console.log(event);
 				var alpha = event.alpha;
-				compass.style.transform = 'rotateZ(' + alpha + 'deg)';
+				compass.style.transform = 'rotate(' + alpha + 'deg)';
+				compass.style.webkitTransform = 'rotate('+ alpha + 'deg)';
+				compass.style.mozTransform = 'rotate(-' + alpha + 'deg)'; 
 			}, true);
 		}
 	}
