@@ -1,0 +1,35 @@
+	body{
+		background-color: #FFE4B5;
+		font-family: 'helvetica', helvetica;
+		
+		margin: 10px;
+	}
+
+
+	header{
+		background-color: red;
+	}
+
+
+
+
+
+	section{
+		width: 100%;
+		float: right;
+		text-align: center;
+		font-size: 40;
+		background-color: darkred;
+	}
+
+
+
+
+	footer{
+		clear:both;
+		background-color:gray;
+		padding:20px;
+		text-align: center;
+		font-size: 30;
+	}
+
