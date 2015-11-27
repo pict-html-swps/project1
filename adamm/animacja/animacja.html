@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<style>
+@keyframes nazwaAnimacji{
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+		
+	}
+}
+	@keyframes nazwaAnimacji2{
+		100%{
+			transform: rotate( 1800deg);
+		
+		}
+}
+.box{
+	animation: nazwaAnimacji 4s 2s infinite,
+	nazwaAnimacji2 3s;
+background-color: red;
+width:200px;
+height:200px;
+}
+.box:hover {
+	background-color:green;
+}
+</style>
+
+
+</head>
+
+<body>
+<div class="box"> </div>
+
+</body>
+
+
+
+
+</html>
