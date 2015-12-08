@@ -10,7 +10,8 @@
 		var compass = document.getElementById('pizza');
 		if( window.DeviceOrientationEvent )
 		{
-			window.addEventListener('deviceorientation', function(event) {
+			window.addEventListener( 'deviceorientation', function( event )
+			{
 				console.log(event);
 				var alpha = event.alpha;
 				compass.style.transform = 'rotate(' + alpha + 'deg)';

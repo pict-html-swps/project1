@@ -1,0 +1,63 @@
+<html>
+
+<head>
+	<style>
+		@keyframes animacja1{
+			0% {
+				left:100px;
+			}
+			100% {
+				left:300px;
+			}
+		}
+		@keyframes animacja2{
+			0%  {
+				border-radius:0 0 0 0;
+				background:coral;
+				transform:rotate(0deg);
+  			}
+  			25%  {
+	  			border-radius:50% 0 0 0;
+	  			background:darksalmon;
+	  			transform:rotate(45deg);
+  			}
+  			50%  {
+  				border-radius:50% 50% 0 0;
+  				background:indianred;
+  				transform:rotate(90deg);
+  			}
+  			75%  { 
+	  			border-radius:50% 50% 50% 0;
+	  			background:lightcoral;
+	  			transform:rotate(135deg);
+  			}
+  			100% {  
+	  			border-radius:50%;
+	  			background:darksalmon;
+	  			transform:rotate(180deg);
+	  		}
+		}
+		.box{
+			position: absolute;
+			top:100px;
+			left:100px;
+			/*
+			-webkit-animation: animacja1 4s 2s infinite;
+			-moz-animation: animacja1 4s 2s infinite;
+			-o-animation: animacja1 4s 2s infinite;
+			-ms-animation: animacja1 4s 2s infinite;
+			*/
+			animation: animacja2 3s 1s infinite alternate, 
+					   animacja1 5s 4s;
+			background-color: red;
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box"></div>
+</body>
+
+</html>
